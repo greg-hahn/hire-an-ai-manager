@@ -1,0 +1,38 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Streamlit local config/secrets
+.streamlit/secrets.toml
+
+# Build / packaging artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs and local DB files
+*.log
+*.sqlite3
+*.db
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
